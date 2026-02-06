@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1
-    y: 55
+    x: 2
+    y: 60
     width: 1492
     height: 1311
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -340,8 +340,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "UnityEditor.MainToolbarWindow\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 55
+    x: -32000
+    y: -32000
     width: 1492
     height: 36
   m_SerializedDataModeController:
@@ -606,8 +606,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 834
+    x: 0
+    y: 767
     width: 1296
     height: 486
   m_SerializedDataModeController:
@@ -646,19 +646,20 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jovan\OneDrive\Documents\Knight Game\Knight game
+  m_LastProjectPath: C:\Users\jovan\OneDrive\Documents\Knight Game\Knight-Game\Knight
+    game
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 66024
+    - m_Data: 66036
     m_LastClickedID:
-      m_Data: 66024
+      m_Data: 66036
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 66024
+    - m_Data: 66036
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -773,7 +774,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1298
-    y: 91
+    y: 24
     width: 194
     height: 1229
   m_SerializedDataModeController:
@@ -823,8 +824,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 91
+    x: 0
+    y: 24
     width: 316
     height: 717
   m_SerializedDataModeController:
@@ -847,7 +848,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -59550
+      - m_Data: -59208
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -894,8 +895,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 318
-    y: 91
+    x: -31683
+    y: -31964
     width: 978
     height: 717
   m_SerializedDataModeController:
@@ -1372,7 +1373,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 2.4914205, y: 0.27944645, z: 0.0010084999}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1424,7 +1425,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 9.899159
+    m_Value: 10
   m_Ortho:
     m_Target: 1
     speed: 2
