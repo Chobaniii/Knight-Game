@@ -33,15 +33,22 @@ public class PlayerController2D : MonoBehaviour
     private float moveInput;
     private float lastGroundedTime;   // for coyote time
     private float lastJumpPressedTime; // for jump buffer
+    private Animator anim; // for animations
+
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+
     }
 
     void Update()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
+        if (anim != null)
+            anim.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
+if (anim != null)
 
         bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         if (isGrounded) lastGroundedTime = coyoteTime;
